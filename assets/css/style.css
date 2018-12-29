@@ -1,0 +1,21 @@
+body {
+  font-size: 18px;
+  line-height: 34px;
+    background: url(../images/curtains1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;  
+}
+
+header {
+  background: rgb(61, 60, 60);
+  width: 45%;
+  padding: 20px;
+  margin: 70px auto;
+  border-style: inset;
+  border-color: gold;
+  border-radius: 10px;
+  color: gold
+  
+}
+
