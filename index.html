@@ -1,41 +1,38 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The Great Cinametic Gif</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>The Great Cinamatic Gif</title>
 
-    <!-- link to css reset -->
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
-
-    <!-- link to bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-    <!-- link to css sheet -->
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
-    
+	<!-- link to specialized google font -->
+	<link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+	<!-- link to bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
+	<!-- link to css file -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<!-- responsiveness -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 </head>
+
 <body>
-
-<!-- top of page with submission -->
-<header>
-    <h1 class="text-center">The Great Cinametic Gifs</h1>
-     <p class="header-text text-center">A wall of movie memes</p>
-     <form class="tv-input text-center">
-         <input type="text" id="userInput" placeholder="Add your favorite Movie">
-            <button type="submit" id="submit-btn" class="btn btn-danger"> Submit</button>
-     </form>
-</header>
-
-<div class="container">
-    <div class="row" id="buttonsArea"><!--button will appear here via javascript--></div>
-    <div class="row" id="mainArea"><!--gif will appear here via javascript--></div>
-</div>
-
-
-<!-- link to jquery -->
-    <!-- link to javescript -->
-    <script src="./assets/js/main.js"></script>
+	<header>
+		<div class="title">
+			<h1 class="text-center">The Great Cinamatic Gif</h1>
+			<p class="header-text text-center">The Great Wall of Movie Memes</p>
+			<form class="movie-input text-center">
+				<input type="text" id="userInput" placeholder="Add your favorite movie">
+				<button type="submit" id="submit-btn" class="btn btn-warning">Submit</button>
+			</form>
+		</div>
+	</header>
+	<div class="container text-center">
+		<div class="row" id="buttonsArea"></div>
+		<div class="row" id="mainArea"></div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
+
 </html>
