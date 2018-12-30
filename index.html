@@ -17,21 +17,25 @@
 </head>
 
 <body>
+<!-- top of page that will display the title and submission of new movies -->
 	<header>
-		<div class="title">
 			<h1 class="text-center">The Great Cinamatic Gif</h1>
 			<p class="header-text text-center">The Great Wall of Movie Memes</p>
 			<form class="movie-input text-center">
 				<input type="text" id="userInput" placeholder="Add your favorite movie">
 				<button type="submit" id="submit-btn" class="btn btn-warning">Submit</button>
 			</form>
-		</div>
 	</header>
+
+	<!-- this is where the buttons and gif will go -->
 	<div class="container text-center">
-		<div class="row" id="buttonsArea"></div>
-		<div class="row" id="mainArea"></div>
+		<div class="row" id="buttonsArea"><!--this is where the button will go via the javascript file--></div>
+		<div class="row" id="mainArea"><!--this is where the gif will go via the javascript file--></div>
 	</div>
+
+	<!-- link to jquery -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- link to javascript file -->
 	<script src="assets/js/main.js"></script>
 </body>
 

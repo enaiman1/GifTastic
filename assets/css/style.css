@@ -1,3 +1,5 @@
+
+/* creats uniform sizing */
 * {
   box-sizing: border-box;
 }
@@ -15,12 +17,16 @@ header{
   width: 45%;
   padding: 20px;
   margin: 70px auto;
-  color: gold
+  
 }
 
 h1 {
   font-family: 'Notable', sans-serif;
- 
+  color: gold;
+}
+
+p {
+  color: gold;
 }
 
 #userInput{
@@ -38,7 +44,6 @@ header,
 }
 
 .container{
-  /* background: white; */
   width: 70%;
   margin: 20px auto;
   color: black;
