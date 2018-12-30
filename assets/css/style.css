@@ -49,10 +49,15 @@ header,
   color: black;
 }
 
+.btn {
+  box-shadow:10px 10px 20px 5px red inset;
+}
+
 .gif {
   border-style: double;
   border-color: gold;
   border-radius: 10px;
   margin: 5px;
+  box-shadow:20px 20px 10px grey; 
 }
 
